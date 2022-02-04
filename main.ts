@@ -7,7 +7,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 })
 function initLevel (lvl: number) {
     info.setScore(0)
-    scene.setBackgroundColor(lvl)
+    scene.setBackgroundColor(lvl + 1)
     game.setDialogTextColor(15)
     game.setDialogFrame(img`
         c c c c c c c c c c c c c c c 
